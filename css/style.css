@@ -1,0 +1,114 @@
+@import url(./fonte.css);
+
+:root{
+    --cor-principal: #DF1F2D;
+    --cor-secundaria: #B11313;
+    --cor-terciaria: #2B3784;
+    --cor-quaternaria: #447BBE;
+    --cor-default: #f6f6f6;
+    --fonte-principal: 'Homem Aranha', sans-serif;
+}
+
+body{
+    background: url(../assets/background.jpg) repeat-y;
+    background-size: cover;
+    color: #f6f6f6;
+    font-size: 16px;
+    font-family: var(--fonte-principal);
+}
+
+/* Header */
+.header{
+    padding: 3rem 3rem 0 3rem;
+
+}
+
+.header nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    list-style-type: none;
+}
+
+.header nav ul li a{
+    background-color: var(--cor-principal);
+    border-radius: 8px;
+    color: var(--cor-default);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+/* Informações */
+.informacoes{
+    height: 100vh;
+    
+}
+
+.informacoes .imagem__homem-aranha{
+    margin: 0 auto;
+    height: 370px;
+    width: 300px;
+    background: url(../assets/homem-aranha-baixo.png) no-repeat ;
+    background-size: cover;
+}
+
+.informacoes .informacoes__textos{
+    margin-top: 5rem;
+    text-align: center;
+    color: var(--cor-default);
+    font-size: 1.7rem;
+}
+
+.informacoes .informacoes__textos .informacoes__titulo{
+    display: inline;
+    border-bottom: 1px solid var(--cor-principal);
+    text-shadow: 1px 1px var(--cor-principal);    
+}
+
+.informacoes .informacoes__textos .informacoes__texto{
+    margin-top: .5rem;
+    text-shadow: 1px 1px var(--cor-quaternaria);    
+    
+}
+
+/* Creditos do jogo */
+.produtoras img{
+    width: 200px;
+}
+
+.produtoras ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    list-style: none;
+
+}
+
+/* Data de lançamento */
+.lancamento{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1rem;
+   
+}
+
+.lancamento h2{
+    text-shadow: 1px 1px var(--cor-principal);
+}
+
+.lancamento iframe{
+    align-self: center;
+}
+
+.lancamento .newsletter{ 
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.lancamento input{
+    border-radius: 8px;
+    border: none;
+    box-shadow: 3px 2px var(--cor-principal);
+}
