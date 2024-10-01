@@ -8,7 +8,7 @@ Essa página foi desenvolvida com base em uma animação do Homem-Aranha 🕷️
 | :label: Tecnologias | HTML5, CSS3
 | :rocket: URL         | https://arthurvicttor.github.io/pagina-homem-aranha/
 
-<!-- Inserir imagem com a #vitrinedev ao final do link -->a
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
 ![](./assets/design-homem-aranha.png#vitrinedev)
 
 ## Detalhes do projeto
